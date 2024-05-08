@@ -43,9 +43,9 @@ const ContactPage = () => {
       animate={{ y: "0%" }}
       transition={{ duration: 1 }}
     >
-      <div className="h-full flex flex-col lg:flex-row px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48 no-scrollbar">
+      <div className="h-full flex flex-col lg:flex-row px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48">
         {/* TEXT CONTAINER */}
-        <div className=" h-1/4 lg:h-full lg:w-1/2 flex items-center justify-center text-6xl">
+        <div className=" h-1/4 lg:h-full lg:w-1/2 flex items-center justify-center text-4xl md:text-5xl lg:text-6xl py-5">
           <div className="">
             {text.split("").map((letter, index) => (
               <motion.span
@@ -69,7 +69,7 @@ const ContactPage = () => {
         <form
           onSubmit={sendEmail}
           ref={form}
-          className=" h-auto lg:h-full lg:w-1/2 bg-red-50 rounded-xl text-base flex flex-col gap-8 justify-center pt-24 pb-5 px-24"
+          className=" h-auto lg:h-full lg:w-1/2 bg-red-50 rounded-xl text-base flex flex-col gap-8 justify-center pt-10 pb-5 px-10"
         >
           <span>Dear Dakshina Kasun,</span>
           <textarea

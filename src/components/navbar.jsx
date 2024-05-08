@@ -94,19 +94,19 @@ const Navbar = () => {
       {/* SOCIAL MEDIA ICONS */}
       <div className="hidden md:flex gap-4 w-1/3 items-center justify-center">
         <Link href="https://github.com/dakshinakasun">
-          <Image src="./github.png" alt="Github" width={24} height={24} />
+          <Image src="/github.png" alt="Github" width={24} height={24} />
         </Link>
         <Link href="https://www.instagram.com/dakshina_kasun/">
-          <Image src="./instagram.png" alt="Instagram" width={24} height={24} />
+          <Image src="/instagram.png" alt="Instagram" width={24} height={24} />
         </Link>
         <Link href="https://www.facebook.com/dakshina.kasun20">
-          <Image src="./facebook.png" alt="Facebook" width={24} height={24} />
+          <Image src="/facebook.png" alt="Facebook" width={24} height={24} />
         </Link>
         <Link href="https://www.linkedin.com/in/dakshina-kasun/">
-          <Image src="./linkedin.png" alt="LinkedIn" width={24} height={24} />
+          <Image src="/linkedin.png" alt="LinkedIn" width={24} height={24} />
         </Link>
         <Link href="#">
-          <Image src="./pinterest.png" alt="Pinterest" width={24} height={24} />
+          <Image src="/pinterest.png" alt="Pinterest" width={24} height={24} />
         </Link>
       </div>
 

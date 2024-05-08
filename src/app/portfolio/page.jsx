@@ -53,7 +53,7 @@ const PortfolioPage = () => {
       transition={{ duration: 1 }}
     >
       <div className="h-[600vh] relative" ref={ref}>
-        <div className="flex flex-col gap-2 w-screen h-[calc(100vh-6rem)] items-center justify-center text-8xl text-center font-semibold">
+        <div className="flex flex-col gap-2 w-screen h-[calc(100vh-6rem)] items-center justify-center text-6xl md:text-7xl lg:text-8xl text-center font-semibold">
           <div className="">My Works</div>
 
           {/* WORKS SCROLL SVG */}
@@ -88,14 +88,14 @@ const PortfolioPage = () => {
                 className={`h-screen w-screen flex items-center justify-center bg-gradient-to-r ${item.color}`}
                 key={item.id}
               >
-                <div className="flex flex-col gap-8 text-white">
+                <div className="flex flex-col gap-8 xl:gap-4 text-white">
                   {/* WORK TITLE */}
-                  <h1 className="text-xl font-bold md:text-4xl lg:text-5xl xl:text-8xl">
+                  <h1 className="text-xl font-bold md:text-4xl lg:text-5xl xl:text-6xl">
                     {item.title}
                   </h1>
 
                   {/* WORK IMAGE */}
-                  <div className="relative w-80 h-56 md:w-96 md:h-64 lg:w-[500px] lg:h-[350px] xl:w-[550px] xl:h-[400px]">
+                  <div className="relative w-80 h-56 md:w-96 md:h-64 lg:w-[500px] lg:h-[350px]">
                     <Image src={item.img} alt="" fill />
                   </div>
 
@@ -106,7 +106,7 @@ const PortfolioPage = () => {
 
                   {/* WORK DEMO BUTTON */}
                   <Link href={item.link} className="flex justify-end">
-                    <button className="p-2 text-sm md:p-3 md:text-md lg:p-4 lg:text-lg bg-white text-gray-600 font-semibold m-4 rounded">
+                    <button className="p-2 text-sm md:p-3 md:text-md lg:p-3 lg:text-lg bg-white text-gray-600 font-semibold m-4 rounded">
                       See Demo
                     </button>
                   </Link>
@@ -116,8 +116,10 @@ const PortfolioPage = () => {
           </motion.div>
         </div>
       </div>
-      <div className="w-screen h-screen flex flex-col gap-16 items-center justify-center text-center">
-        <h1 className="text-6xl font-semibold">Do you have a project?</h1>
+      <div className="w-screen h-screen gap-2 flex flex-col items-center justify-center text-center">
+        <h1 className="text-4xl md:text-5xl lg:text-6xl pt-10 lg:pt-0 font-semibold">
+          Do you have a project?
+        </h1>
         <div className="relative">
           <motion.svg
             animate={{ rotate: -360 }}
