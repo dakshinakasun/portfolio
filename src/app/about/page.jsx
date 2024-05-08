@@ -347,7 +347,7 @@ const AboutPage = () => {
                   <Link
                     href="./Dakshina_Kasun Resume.pdf"
                     download="Dakshina_Kasun Resume.pdf"
-                    className="absolute p-1 lg:p-2 rounded bg-gray-500 text-white text-xs lg:text-sm font-semibold hover:ring-1 hover:ring-gray-500 hover:bg-white hover:text-gray-500"
+                    className="absolute p-2 rounded bg-gray-500 text-white text-xs lg:text-sm font-semibold hover:ring-1 hover:ring-gray-500 hover:bg-white hover:text-gray-500"
                   >
                     Download Resume
                   </Link>
