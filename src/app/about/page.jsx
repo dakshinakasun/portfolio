@@ -36,7 +36,7 @@ const AboutPage = () => {
             {/* BIOGRAPHY IMAGE */}
             <Image
               // src="https://images.pexels.com/photos/775358/pexels-photo-775358.jpeg?auto=compress&cs=tinysrgb&w=800"
-              src="/me.jpg"
+              src="./me.jpg"
               alt=""
               width={112}
               height={112}
